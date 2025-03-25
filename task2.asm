@@ -18,15 +18,16 @@ main:
 	call printf
 
 	mov rdi,fmt
-	mov rsi,[N]
+	mov rsi,N
 	xor rax,rax
 	call scanf
 
 	xor rax,rax
 	mov rax,[N]
+        mov rcx,10
 
 loop1:
-	add rcx,rax 
+	add rax,rcx 
 	LOOP loop1
 
 	mov rdi,res
