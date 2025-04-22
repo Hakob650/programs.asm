@@ -23,7 +23,7 @@ main:
 	call scanf
 
 	xor rax,rax
-	mov rax,[N]
+	mov rax,N
         mov rcx,10
 
 loop1:
