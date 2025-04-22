@@ -24,10 +24,10 @@ main:
 
 	xor rax,rax
 	mov rax,N
-        mov rcx,10
+        mov rcx,0
 
 loop1:
-	add rax,rcx 
+	add rcx,rax 
 	LOOP loop1
 
 	mov rdi,res
